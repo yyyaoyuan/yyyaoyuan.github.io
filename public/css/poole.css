@@ -152,6 +152,10 @@ code,
 pre {
   font-family: "Times New Roman", Times, serif;
 }
+/* 为中文代码文本设置华文行楷字体 */
+code.lang-zh, pre.lang-zh {
+            font-family: "华文行楷", "STXingkai", serif;
+}
 code {
   padding: .25em .5em;
   font-size: 85%;
