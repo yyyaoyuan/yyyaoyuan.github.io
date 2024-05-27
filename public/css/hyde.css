@@ -366,7 +366,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .squareimg {
     width: auto;
-    max-width: 330px;
+    max-width: 100px;
   }
 }
 
