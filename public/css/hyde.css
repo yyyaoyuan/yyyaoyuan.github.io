@@ -38,12 +38,12 @@ html {
 table {
   background-color: black;
 }
-@media (min-width: 30em) {
+@media (min-width: 60em) {
   html {
     font-size: 12px;
   }
 }
-@media (min-width: 30em) {
+@media (min-width: 60em) {
   html {
     font-size: 12px;
   }
