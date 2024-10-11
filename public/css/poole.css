@@ -49,12 +49,12 @@ body {
 
 html {
   font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.1;
 }
 @media (min-width: 60em) {
   html {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
