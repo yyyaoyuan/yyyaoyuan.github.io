@@ -377,7 +377,8 @@ a.sidebar-nav-item:focus {
 /* ---- particles.js container ---- */
 #particles-js {
   /* background-color: #202020; */
-  background-color: #87CEEB; /* 设置为天蓝色 */
+  /* background-color: #87CEEB; /* 设置为天蓝色 */
+  background-color: #F5F5DC; /* 米白色 */
   position: absolute;
   z-index: 1;
   bottom: 0;
