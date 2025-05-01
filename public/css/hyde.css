@@ -138,7 +138,8 @@ a:-webkit-any-link {
 /* Sidebar links */
 .sidebar a {
   /* color: #fff; */
-  color: #6A5ACD;
+  /* color: #6A5ACD; */
+  color: #6A0DAD
 }
 .sidebar a.active {
     font-weight: bold;
