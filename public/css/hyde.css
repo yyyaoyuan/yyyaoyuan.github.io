@@ -114,7 +114,7 @@ a:-webkit-any-link {
 
 .sidebar {
   /* background-color: #87CEEB; */ /* 设置为天蓝色 */
-  background-color: #F5F5DC; /* 米白色 */
+  /* background-color: #F5F5DC; */ /* 米白色 */
   text-align: center;
   color: rgba(255,255,255,.5);
   position: relative;
