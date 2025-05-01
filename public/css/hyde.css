@@ -113,7 +113,8 @@ a:-webkit-any-link {
  */
 
 .sidebar {
-  background-color: #87CEEB; /* 设置为天蓝色 */
+  /* background-color: #87CEEB; */ /* 设置为天蓝色 */
+  background: linear-gradient(to bottom, #87CEEB, #ffffff); /* 天蓝色到白色渐变 */
   text-align: center;
   color: rgba(255,255,255,.5);
   position: relative;
