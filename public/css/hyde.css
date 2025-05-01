@@ -36,7 +36,7 @@ html {
 }
 
 table {
-  background-color: black;
+  background-color: blue;
 }
 @media (min-width: 48em) {
   html {
