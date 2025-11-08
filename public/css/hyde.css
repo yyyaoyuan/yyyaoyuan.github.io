@@ -424,7 +424,7 @@ a.sidebar-nav-item:focus {
   left: 0;
   top: 0;
   width: 2px;
-  height: calc(100% + 10px);
+  height: calc(100% + 6px);
   background-color: #333;
   border-radius: 1px;
 }
