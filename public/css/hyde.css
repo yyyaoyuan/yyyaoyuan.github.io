@@ -412,8 +412,8 @@ a.sidebar-nav-item:focus {
 .flag {
   position: relative;
   display: inline-block;
-  width: 32px;
-  height: 22px;
+  width: 26px;
+  height: 18px;
   margin-left: 4px;
 }
 
@@ -435,7 +435,7 @@ a.sidebar-nav-item:focus {
   position: absolute;
   left: 2px;
   top: 0;
-  width: 30px;
+  width: 22px;
   height: 100%;
   background: linear-gradient(90deg, #e3342f 0%, #ff4d4d 100%);
   border-radius: 2px 0 0 2px;
