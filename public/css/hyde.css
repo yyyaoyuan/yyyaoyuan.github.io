@@ -440,7 +440,7 @@ a.sidebar-nav-item:focus {
   background: linear-gradient(90deg, #e3342f 0%, #ff4d4d 100%);
   border-radius: 2px 0 0 2px;
   transform-origin: left center;
-  animation: waveFlag 1.0s ease-in-out infinite;
+  animation: waveFlag 0.3s ease-in-out infinite;
 }
 
 /* 飘扬动画 */
