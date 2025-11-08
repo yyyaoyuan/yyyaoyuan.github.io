@@ -397,3 +397,44 @@ a.sidebar-nav-item:focus {
   left: 0;
   right: 0;
 }
+
+/* === Flag animation for News heading === */
+.news-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+}
+
+.flag {
+  display: inline-block;
+  width: 28px;
+  height: 20px;
+  background-image: url('data:image/svg+xml;utf8,\
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">\
+  <path d="M8 6c6-2 18-2 26 2 8 4 16 6 22 4v22c-6 2-14 0-22-4-8-4-20-4-26-2V6z" fill="%23e3342f"/>\
+  <rect x="6" y="2" width="3" height="44" rx="1" fill="%23333"/>\
+  </svg>');
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform-origin: left center;
+  animation: wave 1.2s ease-in-out infinite, floaty 3.6s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%   { transform: rotate(0deg); }
+  15%  { transform: rotate(-8deg); }
+  30%  { transform: rotate(0deg); }
+  45%  { transform: rotate(6deg); }
+  60%  { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes floaty {
+  0%   { translate: 0 0; }
+  50%  { translate: 0 -3px; }
+  100% { translate: 0 0; }
+}
