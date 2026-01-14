@@ -6,7 +6,7 @@ highlighter:      rouge
 #relative_permalinks: true
 
 # Setup
-title:            Yuan YAO
+title:            <span class="en">Yuan YAO</span> <span class="cn">姚远</span>
 tagline:          ''
 #description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              joshtai.github.io
